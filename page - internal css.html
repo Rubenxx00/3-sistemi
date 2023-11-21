@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        /* type selector */
+        p {
+            font-size: medium;
+        }
+        table, tr, td, th {
+            border: solid 2px;
+        }
+
+        /* class selector */
+        .red {
+            color:red;
+        }
+        .centered {
+            text-align: center; 
+        }
+        .highlighted {
+            background-color:yellow;
+            font-weight: bolder;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        /* type selector */
+        #bottom {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="red centered">Header pagina</h1>
+    <p class="red">
+        This paragraph will be red.
+    </p>
+    <p> This one will <span class="bold">not</span></p>
+    <table>
+        <tr class="highlighted">
+            <th >Nome</th>
+            <th >Cognome</th>
+        </tr>
+        <tr>
+            <td>Mario</td>
+            <td>Rossi</td>
+        </tr>
+    </table>
+    <p id="bottom">This is the last paragraph</p>
+</body>
+</html>
